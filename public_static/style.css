@@ -1,0 +1,58 @@
+
+nav{
+
+ }
+.nav-wrapper{
+    background-color: black;
+    text-decoration-color: white;
+    font-size: small;
+
+}
+.xyz{
+    letter-spacing: 2px;
+    margin-left: 100px;
+    font-size: 22px;
+}
+.OPAQ{
+    background:rgba(255,255,255,0.9);
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    background-color: dimgrey;
+}
+.page-footer{
+    padding-top: 0px;
+}
+.fa{
+    color: white;
+}
+#contactForm{
+    width:300px;
+    height:350px;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    text-decoration-color: #0C3C60;
+}
+#aboutUs{
+    background-color: rgba(236, 231,231,0.9);
+    text-align: justify;
+}
+.SECTION{
+    margin-right: 100px;
+    background-color: goldenrod;
+    color: white;
+    height:300px;
+    width:200px;
+    padding: 1rem;
+}
+.sec{
+    left:100px;
+    right:100px;
+}
+h5{
+    align: center;
+}
+.tagline{
+    background-color: darkgray;
+}
