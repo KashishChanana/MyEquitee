@@ -1,0 +1,22 @@
+<% include partials/header.ejs%>
+
+
+<% answer %>
+<table style="border: 5px solid goldenrod" margin="200px" width="50%">
+    <tr style="color: goldenrod">
+        <th>
+            COMPANY
+        </th>
+        <th>
+            GROWTH SCORE
+        </th>
+    </tr>
+    <% answer.forEach(function (ans) {%>
+    <tr>
+        <td> <%= ans.company %></td>
+        <td> <%= ans.growthScore %></td>
+    </tr>
+    <%}) %>
+</table>
+
+<% include partials/footer.ejs%>

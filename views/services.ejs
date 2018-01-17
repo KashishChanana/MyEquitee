@@ -1,0 +1,29 @@
+<% include partials/header.ejs %>
+
+<div id="service1">
+    <div id="inputForm">
+        <form id="serviceForm"  action="/myequitee/services" method="post">
+            <div class="row">
+                <div class="input col s6">
+                    <span class="input ">RISK PREFERENCE</span>
+                    <input type="text" class="form-control" id="riskpref" width="100px" name="risk">
+                </div>
+
+                <div class="input col s6 ">
+                    <span class="input ">STOCKS REQUIRED</span>
+                    <input type="text" class="form-control" id="stocksreq" width="100px" name="stocksreq" >
+
+                </div>
+            </div>
+            <div >
+                <button type="submit" class="btn btn-outline-light actionbtns" class="accept">SUBMIT</button>
+                <button type="reset" class="btn btn-outline-light actionbtns" class="accept">RESET</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<% include partials/footer.ejs %>
